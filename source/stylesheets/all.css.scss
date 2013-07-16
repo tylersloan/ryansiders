@@ -27,34 +27,29 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin: 0;
   padding: 0;
-  color: #d0e3f4;
+  color: rgba(208, 227, 244, 0.16);
   font-weight: 700;
-  font-size: 5.125em;
-  letter-spacing: 8px;
+  font-size: 117px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   line-height: 1;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 182px;
-  line-height: 1;
-  letter-spacing: 30px;
-  color: rgb(245,245,245);
   -webkit-mask-size: 275px auto;
   -webkit-mask-image: url(/images/halftone.png);
   z-index: 1000;
 }
 
+h1 {
+}
+
 h1:after {
   content: 'RYAN SIDERS';
   position:absolute;
-  margin: -364px 0 0px -4px;
+  margin: -121px 0 0px 5px;
   display: block;
   background-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgb(15,15,15);
-  -webkit-transform:skew(1deg,1deg);
+  // -webkit-transform:skew(.5deg,.5deg);
   z-index: 1;
 }
 
