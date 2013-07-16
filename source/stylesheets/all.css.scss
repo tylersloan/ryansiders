@@ -147,16 +147,17 @@ li {
     }
     color: #D0E1F3;
     text-decoration: none;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    border-bottom: 3px solid rgba(255,255,255,.01);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 
   a:hover, a:focus {
     color: white;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgba(255,255,255,1);
   }
 }
 
